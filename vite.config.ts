@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/ai-video-studio/' : '/',
+  base: "/practice_video/",   // ✅ 여기 수정
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
